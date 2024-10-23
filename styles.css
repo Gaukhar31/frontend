@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background: white;
+    font-size: 16px;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1440px;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .header {
+    padding: 20px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    align-content: start;
+  }
+  
+  .header img {
+    width: 150px;
+    margin-bottom: 30px;
+  }
+  
+  .header h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: hsl(0, 6%, 24%);
+  }
+  
+  .header h2 span {
+    display: block;
+    color: hsl(0, 36%, 70%);
+    font-weight: 300;
+  }
+  
+  .header h5 {
+    font-size: 14px;
+    color: hsl(0, 36%, 70%);
+    margin: 20px 0;
+  }
+  
+  .header input[type="email"] {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid hsl(0, 36%, 70%);
+    border-radius: 25px;
+    outline: none;
+  }
+  
+  .photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  footer {
+    grid-column: span 2;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .attribution {
+    font-size: 11px;
+    color: hsl(0, 6%, 24%);
+  }
+  
+  .attribution a {
+    color: hsl(0, 36%, 70%);
+  }
